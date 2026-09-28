@@ -1,0 +1,25 @@
+{
+  "name": "qa-automation-lab",
+  "version": "1.0.0",
+  "description": "\"# qa-automation-lab\" \r # qa-automation-lab",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  }
+}
